@@ -4,7 +4,7 @@
 
 **하드 디스크** : 자기적인 방식으로 데이터를 저장하는 보조 기억 장치
 
-![Untitled](%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A9%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8E%E1%85%B5%20a333777690cd40cd88d9624daddfb9db/Untitled.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/7-1.png)
 
 **플래터** : 실질적으로 데이터가 저장되는 곳, 더 많은 양의 데이터를 저장하기 위해 여러 겹 사용. 양면 모두 사용 가능.
 
@@ -18,7 +18,7 @@
 
 플래터는 **트랙**과 **섹터**라는 단위로 데이터를 저장한다.
 
-![Untitled](%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A9%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8E%E1%85%B5%20a333777690cd40cd88d9624daddfb9db/Untitled%201.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/7-2.png)
 
 **트랙** : 플래터를 여러 동심원으로 나누었을 때 그중 하나의 원
 
@@ -26,25 +26,26 @@
 
 **실린더** : 여러 겹의 플래터 상에서 같은 트랙이 위치한 곳을 모아 연결한 논리적 단위
 
-![Untitled](%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A9%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8E%E1%85%B5%20a333777690cd40cd88d9624daddfb9db/Untitled%202.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/7-3.png)
 
 연속된 정보는 디스크 암을 움직이지 않고도 바로 데이터에 접근할 수 있기 때문에 보통 한 실린더에 기록된다.
 
 - **탐색 시간** : 접근하려는 데이터가 저장된 트랙까지 헤드를 이동시키는 시간
     
-    ![Untitled](%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A9%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8E%E1%85%B5%20a333777690cd40cd88d9624daddfb9db/Untitled%203.png)
+    ![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/7-4.png)
     
 - **회전 지연** : 헤드가 있는 곳으로 플래터를 회전시키는 시간
     
-    ![Untitled](%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A9%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8E%E1%85%B5%20a333777690cd40cd88d9624daddfb9db/Untitled%204.png)
+    ![Untitled](
+https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/7-5.png)
     
 - **전송 시간** : 하드 디스크와 컴퓨터 간에 데이터를 전송하는 시간
 
-![Untitled](%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A9%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8E%E1%85%B5%20a333777690cd40cd88d9624daddfb9db/Untitled%205.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/7-6.png)
 
 접근 시간
 
-![Untitled](%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A9%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8E%E1%85%B5%20a333777690cd40cd88d9624daddfb9db/Untitled%206.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/7-7.png)
 
 - 탐색 시간, 회전 지연, 전송 시간은 성능에 큰 영향을 끼친다.
 - 하드 디스크에서 데이터를 탐색하고 읽어 들이는 시간은 생각보다 길다.
@@ -110,7 +111,7 @@
 
 **다이** : 플레인이 모여 만들어진 단위
 
-![Untitled](%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A9%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8E%E1%85%B5%20a333777690cd40cd88d9624daddfb9db/Untitled%207.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/7-8.png)
 
 - 읽기와 쓰기는 페이지 단위로 이루어짐.
 - 삭제는 블록 단위로 이루어짐.
@@ -124,11 +125,11 @@
 
 1. **데이터 C 저장**
 
-![Untitled](%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A9%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8E%E1%85%B5%20a333777690cd40cd88d9624daddfb9db/Untitled%208.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/7-9.png)
 
 1. **A → A’으로 수정**
     
-    ![Untitled](%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A9%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8E%E1%85%B5%20a333777690cd40cd88d9624daddfb9db/Untitled%209.png)
+    ![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/7-17.png)
     
     덮어쓰기가 불가능 하기 때문에 기존에 저장된 A는 Invalid 상태로 변해 쓰레기 값이 되고, A’데이터 저장
     
@@ -138,7 +139,7 @@
     
     **가비지 컬렉션** : 쓰레기 값을 정리하기 위해 사용하는 기능
     
-    ![Untitled](%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A9%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8E%E1%85%B5%20a333777690cd40cd88d9624daddfb9db/Untitled%2010.png)
+    ![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/7-10.png)
     
     가비지 컬렉션은 유효한 페이지들만 새로운 블록으로 복사하고, 기존 블록을 삭제한다.
     
@@ -164,7 +165,7 @@
 - 저장된 정보가 안전하지 않다는 단점이 있음.
 - RAID 0으로 구성된 하드 디스크 중 하나에 문제가 생긴다면 다른 모든 하드 디스크의 정보를 읽는 데 문제가 생길 수 있음.
 
-![Untitled](%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A9%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8E%E1%85%B5%20a333777690cd40cd88d9624daddfb9db/Untitled%2011.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/7-11.png)
 
 ### RAID 1
 
@@ -175,7 +176,7 @@
 - 하드 디스크 개수가 한정되었을 때 사용 가능한 용량이 적어지는 단점이 있음.
 - 복사본이 만들어지는 용량만큼 사용자가 사용하지 못하므로, 많은 양의 하드 디스크가 필요하게 되고, 그에 따른 비용 증가가 발생함.
 
-![Untitled](%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A9%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8E%E1%85%B5%20a333777690cd40cd88d9624daddfb9db/Untitled%2012.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/7-12.png)
 
 ### RAID 4
 
@@ -185,14 +186,14 @@
 - RAID 1보다 적은 하드 디스크로도 데이터를 안전하게 보관 가능.
 - 새로운 데이터가 저장될 때마다 패리티를 저장하는 디스크에도 데이터를 쓰게 되므로 패리티를 저장하는 장치에 병목 현상이 발생하는 문제가 있음.
 
-![Untitled](%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A9%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8E%E1%85%B5%20a333777690cd40cd88d9624daddfb9db/Untitled%2013.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/7-13.png)
 
 ### RAID 5
 
 - 패리티 정보를 분산하여 저장하는 방식
 - RAID 4의 병목 현상 해소가능
 
-![Untitled](%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A9%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8E%E1%85%B5%20a333777690cd40cd88d9624daddfb9db/Untitled%2014.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/7-14.png)
 
 ### RAID 6
 
@@ -202,4 +203,4 @@
 - 새로운 정보를 저장할 때마다 함께 저장할 패리티가 두 개이므로, 쓰기 속도는 RAID 5보다 느림.
 - 데이터 저장 속도를 조금 희생해 데이터를 더욱 안전하게 보관하고 싶을 때 사용하는 방식.
 
-![Untitled](%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A9%E1%84%80%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8E%E1%85%B5%20a333777690cd40cd88d9624daddfb9db/Untitled%2015.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/7-15.png)
