@@ -21,7 +21,7 @@ CPU가 실행하고 싶은 프로그램이 보조 기억 장치에 있다면 RAM
 
 RAM의 용량이 충분히 크다면 보조 기억 장치에서 많은 데이터를 미리 가져와 RAM에 저장할 수 있어 많은 프로그램을 동시에 빠르게 실행하는데 유리하다.
 
-![Untitled](%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8B%E1%85%AA%20%E1%84%8F%E1%85%A2%E1%84%89%E1%85%B5%20%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5%20a967560e97984b63a714ced3a702826f/Untitled.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/6-1.png)
 
 RAM 용량이 커지면 프로그램 실행 속도가 어느 정도 증가하지만, 용량이 필요 이상으로 커졌을 때는 속도가 그에 비례하여 증가하지는 않는다.
 
@@ -64,7 +64,7 @@ RAM 용량이 커지면 프로그램 실행 속도가 어느 정도 증가하지
 
 **논리 주소** : CPU와 실행 중인 프로그램이 사용하는주소, 실행 중인 프로그램 각각에게 부여된 0번지부터 시작되는 주소 
 
-![Untitled](%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8B%E1%85%AA%20%E1%84%8F%E1%85%A2%E1%84%89%E1%85%B5%20%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5%20a967560e97984b63a714ced3a702826f/Untitled%201.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/6-2.png)
 
 CPU가 이해하는 주소가 논리 주소라고 해도 메모리와 상호작용하려면 논리 주소와 물리 주소 간의 변환이 필요하다.
 
@@ -77,7 +77,7 @@ CPU가 이해하는 주소가 논리 주소라고 해도 메모리와 상호작�
 
 # 메모리 보호 기법
 
-![Untitled](%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8B%E1%85%AA%20%E1%84%8F%E1%85%A2%E1%84%89%E1%85%B5%20%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5%20a967560e97984b63a714ced3a702826f/Untitled%202.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/6-3.png)
 
 **한계 레지스터** : 다른 프로그램의 영역을 침범할 수 있는 명령어는 위험하기 때문에 논리 주소 범위를 벗어나는 명령어 실행을 방지하고 실행 중인 프로그램이 다른 프로그램에 영향을 받지 않도록 보호하는 레지스터
 
@@ -99,7 +99,7 @@ CPU가 이해하는 주소가 논리 주소라고 해도 메모리와 상호작�
 
 **저장 장치 계층 구조** : 컴퓨터가 사용하는 저장 장치들을 **CPU에 얼마나 가까운가**를 기준으로 계층적으로 나타낸 것
 
-![Untitled](%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8B%E1%85%AA%20%E1%84%8F%E1%85%A2%E1%84%89%E1%85%B5%20%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5%20a967560e97984b63a714ced3a702826f/Untitled%203.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/6-4.png)
 
 ---
 
@@ -110,7 +110,7 @@ CPU가 이해하는 주소가 논리 주소라고 해도 메모리와 상호작�
 - CPU의 연산 속도와 메모리 접근 속도의 차이를 줄이기 위해 탄생.
 - CPU가 사용할 일부 데이터를 미리 캐시 메모리로 가지고 와서 활용
 
-![Untitled](%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8B%E1%85%AA%20%E1%84%8F%E1%85%A2%E1%84%89%E1%85%B5%20%E1%84%86%E1%85%A6%E1%84%86%E1%85%A9%E1%84%85%E1%85%B5%20a967560e97984b63a714ced3a702826f/Untitled%204.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/6-5.png)
 
 **L1 캐시** : CPU와 가장 가까운 캐시 메모리
 
