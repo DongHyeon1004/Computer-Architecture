@@ -129,7 +129,7 @@ https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8
 
 1. **A → A’으로 수정**
     
-    ![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/7-17.png)
+    ![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/7-10.png)
     
     덮어쓰기가 불가능 하기 때문에 기존에 저장된 A는 Invalid 상태로 변해 쓰레기 값이 되고, A’데이터 저장
     
