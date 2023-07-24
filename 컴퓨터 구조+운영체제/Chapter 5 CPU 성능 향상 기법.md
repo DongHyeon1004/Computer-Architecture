@@ -74,6 +74,7 @@ ex)
 4. 결과 저장
 
 ![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/5-3.png)
+
 **명령어 파이프라이닝** : 같은 단계가 겹치지 않으면 여러 명령어를 동시에 처리할 수 있게 해주는 기법
 
 ### 파이프라인 위험
