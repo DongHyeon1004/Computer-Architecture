@@ -42,11 +42,11 @@ CPU의 연산 속도는 코어 수에 비례하여 증가하지는 않는다.
 
 ex) 
 
-![Untitled](CPU%20%E1%84%89%E1%85%A5%E1%86%BC%E1%84%82%E1%85%B3%E1%86%BC%20%E1%84%92%E1%85%A3%E1%86%BC%E1%84%89%E1%85%A1%E1%86%BC%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8%20b02865e366f544138e5b31dfe690bea1/Untitled.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/5-1.png)
 
 **하이퍼스레딩** : 인텔의 멀티스레드 기술
 
-![제목 없음.png](CPU%20%E1%84%89%E1%85%A5%E1%86%BC%E1%84%82%E1%85%B3%E1%86%BC%20%E1%84%92%E1%85%A3%E1%86%BC%E1%84%89%E1%85%A1%E1%86%BC%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8%20b02865e366f544138e5b31dfe690bea1/%25EC%25A0%259C%25EB%25AA%25A9_%25EC%2597%2586%25EC%259D%258C.png)
+![제목 없음.png](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/5-2.png)
 
 메모리 속 프로그램 입장에서 봤을 때 하드웨어 스레드는 한 번에 하나의 명령어를 처리하는 CPU이다. 그래서 하드웨어 스레드를 **논리 프로세서**라고 부르기도 한다.
 
@@ -73,8 +73,7 @@ ex)
 3. 명령어 실행
 4. 결과 저장
 
-![Untitled](CPU%20%E1%84%89%E1%85%A5%E1%86%BC%E1%84%82%E1%85%B3%E1%86%BC%20%E1%84%92%E1%85%A3%E1%86%BC%E1%84%89%E1%85%A1%E1%86%BC%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8%20b02865e366f544138e5b31dfe690bea1/Untitled%201.png)
-
+![Untitled](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/5-3.png)
 **명령어 파이프라이닝** : 같은 단계가 겹치지 않으면 여러 명령어를 동시에 처리할 수 있게 해주는 기법
 
 ### 파이프라인 위험
