@@ -49,7 +49,7 @@ ex) 1,2를 저장하라         데이터: 1,2     명령어: 저장하라, 1과
 
 **메모리 읽는 과정**
 
-![1-1](https://github.com/DongHyeon1004/Computer-Structure/tree/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/1-1.png)
+![1-1](https://github.com/DongHyeon1004/Computer-Structure/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/1-1.png)
 
 1. 제어 버스로 메모리 읽기 제어 신호를 보냄.
 2. 주소 버스로 읽고자 하는 주소를 보냄.
