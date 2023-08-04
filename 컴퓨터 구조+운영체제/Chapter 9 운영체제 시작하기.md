@@ -12,7 +12,7 @@ ex) CPU, 메모리, 보조기억장치 등 모든 컴퓨터 부품들
 
 **사용자 영역** : 커널 영역을 제외한 나머지 영역. 사용자가 이용하는 응용 프로그램이 적재되는 영역
 
-![Untitled](%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%8E%E1%85%A6%E1%84%8C%E1%85%A6%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20b0e27c2232d448389fc4bd1498823002/Untitled.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/9-1.png)
 
 **운영체제의 역할**
 
@@ -41,7 +41,7 @@ ex)
 - 운영체제가 설치된 모든 기기에는 커널이 있다.
 - 어떤 커널을 사용하는지에 따라 실행하고 개발하는 프로그램이 하드웨어를 이용하는 양상이 달라지고, 컴퓨터 전체의 성능도 달라질 수 있다.
 
-![Untitled](%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%8E%E1%85%A6%E1%84%8C%E1%85%A6%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20b0e27c2232d448389fc4bd1498823002/Untitled%201.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/9-2.png)
 
 **커널에 포함되지 않는 서비스**
 
@@ -60,7 +60,7 @@ ex)
 
 응용 프로그램이 자원에 접근하기 위해서는 운영체제에 도움을 요청하고, 요청을 받은 운영체제는 응용 프로그램 대신 자원에 접근하여 요청한 작업을 수행한다.
 
-![Untitled](%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%8E%E1%85%A6%E1%84%8C%E1%85%A6%20%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20b0e27c2232d448389fc4bd1498823002/Untitled%202.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/9-3.png)
 
 **이중 모드(dual mode)** : CPU가 명령어를 실행하는 모드를 크게 사용자 모드와 커널 모드로 구분하는 방식
 
