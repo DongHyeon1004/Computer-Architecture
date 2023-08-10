@@ -14,7 +14,7 @@
 
 **입출력 작업이 많은 프로세스를 먼저 실행하는 것이 효율적인 이유**
 
-![Untitled](CPU%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%A6%E1%84%8C%E1%85%AE%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BC%20f06ea55ecb16459f8dda86c430c5c4af/Untitled.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/11-1.png)
 
 프로세스 종류마다 입출력 장치를 이용하는 시간과 CPU를 이용하는 시간의 양에는 차이가 있다.
 
@@ -39,7 +39,7 @@ PCB에 우선순위가 적혀 있지만, CPU를 사용할 다음 프로세스를
 
 ex)
 
-![Untitled](CPU%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%A6%E1%84%8C%E1%85%AE%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BC%20f06ea55ecb16459f8dda86c430c5c4af/Untitled%201.png)
+![Untitled](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/11-2.png)
 
 운영체제가 관리하는 대부분의 자원은 큐로 관리된다.
 
