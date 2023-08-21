@@ -117,7 +117,7 @@ guest/b.jpg → ./guest/b.jpg
 
 ![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%203.png)
 
-ex) home 디렉터리 -> guest 디렉터리
+ex) home 디렉터리 → guest 디렉터리
 
 ![Untitled](%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20b95a5d647fd1459d8a06483c87e71fc5/Untitled%204.png)
 
