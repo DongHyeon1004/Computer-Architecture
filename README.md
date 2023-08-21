@@ -9,6 +9,9 @@
 ##### [Chapter 8 입출력 장치](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Chapter%208%20%EC%9E%85%EC%B6%9C%EB%A0%A5%20%EC%9E%A5%EC%B9%98.md)
 # Operating-System
 ##### [Chapter 9 운영체제 시작하기](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Chapter%209%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
-
+##### [Chapter 10 프로세스와 스레드]
 ##### [Chapter 11 CPU 스케줄링](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Chapter%2011%20CPU%20%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81.md)
+##### [Chapter 12 프로세스 동기화]
+##### [Chapter 13 교착 상태]
+##### [Chapter 14 가상 메모리]
 ##### [Chapter 15 파일 시스템](https://github.com/DongHyeon1004/Computer-Architecture-Operating-System/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%2B%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Chapter%2015%20%ED%8C%8C%EC%9D%BC%20%EC%8B%9C%EC%8A%A4%ED%85%9C.md)
